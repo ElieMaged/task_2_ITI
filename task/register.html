@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flexy">
+        <h1><u>Registration Form</u></h1>
+        <form method="POST" action="">
+        <table>
+
+            <tr>
+                <th colspan="1"><label for="frstName"><p>First Name</p></label></th>
+                
+                <td colspan="2"><input id='frstName' placeholder="type your first name" name="frstName" type="text"></td>
+            </tr>
+
+            <tr>
+                <th><label for="lastName"><p>Last Name</p></label></th>
+                
+                <td colspan="2"><input id='lastName' placeholder="type your last name" name="lastName" type="text"></td>
+            </tr>
+
+            <tr>
+                <th><label for="email"><p>Email</p></label></th>
+                
+                <td colspan="2"><input id='email' placeholder="type your email" name="email" type="text"></td>
+            </tr>
+
+            <tr>
+                <th><label for="password"><p>Password</p></label></th>
+                
+                <td colspan="2"><input id='password' placeholder="type your password" name="password" type="text"></td>
+            </tr>
+
+
+            <tr>
+                <th><label for="">Gender</label></th>
+            <td colspan="2"><input id='gender' name="gender" type="radio">Female <hr><input name="gender" type="radio">Male</td>
+           
+            </tr>
+
+            <tr>
+                <th>Country</th>
+                <td colspan="2">
+
+                    <select id="browsers">
+                     <option>Select a country</option>
+                     <optgroup label="Africa">
+                      <option value="Egypt">Egypt</option>
+                      <option value="Sudan">Sudan</option>
+                      <option value="Libya">Libya</option>
+                    </optgroup>
+        <optgroup disabled label="Europe">
+            <option value="Africa">Italy</option>
+            <option value="Africa">Sweden</option>
+            <option value="Africa">Egypt</option>
+        </optgroup>
+        <optgroup  label="Asia">
+            <option value="Palestine">Palestine</option>
+            <option value="South Korea">South Korea</option>
+            <option value="India">India</option>
+        </optgroup>
+                    </select></td>
+            </tr>
+     
+        <tr><th>Birthday</th> <td colspan="2"><input type="date"></td></tr>
+
+            <tr><th colspan="3"><u>Interests</u></th></tr>
+            <tr class="interestStacked"><td colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Sports</td>
+                <td colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Music</td>
+                <td colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Fashion</td>
+             </tr>
+             <tr class="interestStacked"><td colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Reading</td>
+                <td rowspan="" colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Skipping</td>
+                <td colspan="1"><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">Movies</td>
+             </tr>
+            
+
+                <tr><th colspan="3"><u>Bio</u></th></tr>
+            <tr><td colspan="3"><textarea  id="story" name="story" rows="2" cols="33"></textarea></td> </textarea></tr>
+            
+         <footer class="bottomFooter"><tr><td colspan="3"><button>Register</button><button>Reset</button></td></tr></footer>
+            
+        </table>
+        </form>
+    </div>
+</body>
+</html>

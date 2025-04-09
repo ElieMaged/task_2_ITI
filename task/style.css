@@ -1,0 +1,77 @@
+
+textarea {
+    padding: 30px;
+}
+.flexy {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.middy {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#story {
+    text-align: center;
+}
+
+table {
+    border:solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: auto;
+}
+
+
+.diffy {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imgy {
+ width: 100px;
+}
+
+.small {
+    font-size: smaller;
+}
+
+.colory {
+    color:rgb(255, 0, 0);
+}
+
+tr, th {
+border-right:solid 1px black;
+border-bottom: solid 1px black;
+padding-left: 25px;
+padding-right: 25px;
+border-radius:2px;
+
+}
+
+input {
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+textarea {
+    margin: 10px;
+}
+
+.interestStacked {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+button {
+    margin: 5px;
+}
+
+
+
+
